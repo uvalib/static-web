@@ -1,0 +1,19 @@
+{
+  "name": "static-web",
+  "version": "1.0.0",
+  "description": "Static web resources",
+  "main": "index.js",
+  "scripts": {
+    "sync-files": "rsync -avh js/ static01.lib.virginia.edu:/lib_content47/static/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uvalib/static-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uvalib/static-web/issues"
+  },
+  "homepage": "https://github.com/uvalib/static-web#readme"
+}
