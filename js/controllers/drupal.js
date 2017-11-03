@@ -6,3 +6,12 @@ var webcompjs = document.createElement('script');
 webcompjs.type = 'text/javascript';
 webcompjs.src = '//static.lib.virginia.edu/bower_components_master/webcomponentsjs/webcomponents-lite.js';
 document.getElementsByTagName('head')[0].appendChild(webcompjs);
+
+function importElement(path){
+  var link = document.createElement('link');
+  link.setAttribute('rel', 'import');
+  link.setAttribute('href', 'elements/app-module.html');
+  document.getElementsByTagName('head')[0].appendChild(link)
+}
+
+importElement("//static.lib.virginia.edu/bower_components_master/uvalib-theme/uvalib-theme.html");
