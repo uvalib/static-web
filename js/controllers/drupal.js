@@ -10,7 +10,7 @@ document.getElementsByTagName('head')[0].appendChild(webcompjs);
 function importElement(path){
   var link = document.createElement('link');
   link.setAttribute('rel', 'import');
-  link.setAttribute('href', 'elements/app-module.html');
+  link.setAttribute('href', path);
   document.getElementsByTagName('head')[0].appendChild(link)
 }
 
