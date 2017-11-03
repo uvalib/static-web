@@ -4,5 +4,5 @@ var access_analytics={base_url:"https://analytics.ssbbartgroup.com/api/",instanc
 //Shim for webcomponent support
 var webcompjs = document.createElement('script');
 webcompjs.type = 'text/javascript';
-webcompjs.src = 'https://http://static.lib.virginia.edu/bower_components_master/webcomponentsjs/webcomponents-lite.js';
+webcompjs.src = '//static.lib.virginia.edu/bower_components_master/webcomponentsjs/webcomponents-lite.js';
 document.getElementsByTagName('head')[0].appendChild(webcompjs);
