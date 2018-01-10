@@ -1,0 +1,915 @@
+ @viewport {
+          width: device-width;
+}
+
+
+
+
+html {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #eee; /* Fills the page */
+  position: relative; /* Fix for absolute positioning */
+  background:#E4E9F2;
+}
+
+#ControlPanel{
+height:3em;
+
+}
+
+#title a{
+	color:#fff;
+	text-decoration: none;
+}
+
+body{
+	color:#000;
+	background-color: #fff;
+	font-family: "chaparral-pro", Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  padding:0px !important;
+  margin:0px;
+}
+
+div#preload { display: none; }
+
+#history #slideshow-1 { height: 400px; max-width: 400px; min-height:600px; width: 550px; margin-right: 3em; margin-bottom: 3em; float:left; position:relative;}
+
+#slideshow-1 img{ max-width: 450px;}
+
+.cycle-prev{float:left; margin-right: 1.5em; margin-top:1em;}
+.cycle-next{margin-top:1em;}
+#history #cycle-2 {height: 100px;}
+#history #cycle-2 .cycle-slide { border:3px solid #fff; }
+#history #cycle-2 .cycle-slide-active { border:3px solid #004; }
+#history #slideshow-1 img { max-height: 500px; max-width: 400px;} 
+
+
+/*
+#history #cycle-1 div { width:100%; }
+#history #cycle-2 {height: 100px;}
+#history #cycle-2 .cycle-slide { border:3px solid #fff; }
+#history #cycle-2 .cycle-slide-active { border:3px solid #004; }
+#history .cycle-slideshow { width: 100% }
+#history .cycle-slideshow img { width: 60%; height: auto; }
+#history #slideshow-1 { width: 100%; max-width: 600px; margin: auto; margin-bottom: 3em; float:left;}
+#history #slideshow-2 { width: 100%;  margin: auto; }
+
+#history #historyTimeline{margin:auto; max-width: 1px;}
+#history #alt-caption {padding-top: 2em;}
+*/
+h1{
+	color:#fff;
+}
+
+header{
+background-color: #0D3268;
+    width:100%;
+    top:0px;
+}
+
+
+#topNav{
+background-color:#0c1a32;
+padding-left: 1.75em;
+padding-top: .75em;
+}
+
+
+#topNav a{
+color:#fff;
+font-size: .75rem;
+margin-top: .75em;
+margin-left: 1em;
+}
+
+
+.nav a#pull {  
+    display: none;  
+    float:right;
+}         
+
+
+.nav #uvalogo_horiz{
+
+border:0;
+visibility: hidden;
+}
+
+.f-nav #uvalogo_horiz{
+
+border:0;
+visibility: visible;
+}
+
+
+
+
+
+h1 {
+	font-family: "chaparral-pro", Georgia, "Times New Roman", Times, serif;
+	font-weight:200;
+	font-size: 2.50rem;
+  }
+
+section{
+overflow:visible;
+height:50em;
+position:relative;
+width:100%;
+}
+
+.column1{
+width:45%;
+float:left;
+}
+
+.column2{
+width:45%;
+float:right;
+height:auto;
+}
+
+
+#intro{
+
+background: url(../images/brown.jpg) no-repeat 50% 0 fixed;
+}
+
+#alderman{
+background: url(../images/alderman_renewal.jpg) no-repeat 50% 0 fixed;
+}
+
+#research{
+background: url(../images/research_support.jpg) no-repeat 50% 0 fixed;
+
+}
+
+#researchText, #aldermanText, #studentText, #preservationText, #donorsText, #historyText{
+background: #fff;
+
+}
+
+#student{
+background: url(../images/student_experience.jpg) no-repeat 50% 0 fixed;
+}
+
+#preservation{
+background: url(../images/preservation.jpg) no-repeat 50% 0 fixed;
+
+}
+
+#howtogive{
+background: url(../images/donors.jpg) no-repeat 50% 0 fixed;
+
+}
+
+#history{
+background: url(../images/ALD_OLDmemhall.jpg) no-repeat 50% 0 fixed;
+}
+
+
+
+
+#libraryLogo{
+background: url(../images/liblogo.png);
+float:right;
+margin-right: 3em;
+margin-top: 2em;
+border:0px;
+height: 90px;
+width:198px;
+}
+
+#headerBackground{
+background-color: #0D3268;
+height: 7.5em;
+}
+
+
+ul, ul li{
+list-style: none;
+
+}
+
+article{
+background-color: rgba(255, 255, 255, 0.7);
+border-top:1px solid rgba(255, 255, 255, 1);
+border-bottom:1px solid rgba(0, 0, 0, .25);
+position: absolute;
+  max-width: 1200px;
+height:40%;
+bottom:0%;
+left:0px;
+padding-left:4em;
+padding-right:4em;
+padding-bottom:4em;
+padding-top: 2em;
+overflow:none;
+-webkit-transition: height 0.5s ease;
+-moz-transition: height 0.5s ease;
+-o-transition: height 0.5s ease;
+-ms-transition: height 0.5s ease;
+transition: height 0.5s ease; 
+
+}
+
+
+#intro article{
+
+	height:70%;
+}
+
+#howtogive article{
+background-color: rgba(255, 255, 255, 0.7);
+
+}
+ 
+.expand{
+	height:85%;
+}
+
+.show{
+	visibility: visible;
+}
+
+
+/*-moz-column-count:3; 
+-webkit-column-count:3; 
+column-count:3;*/
+
+}
+
+
+article p{
+	width:50%;
+
+}
+
+article p:first-of-type:first-letter {
+    font-size: 160px; float: left; margin: 0px 20px 0 0; line-height: 0.8;
+    color:#51822F;
+}
+
+article p:first-of-type:first-line {
+    font-size: 2rem;
+        color:#51822F;
+}
+
+
+article .readMore p:first-of-type:first-letter {
+    font-size: 1.5em; float: none; margin: 0px 0px 0 0; line-height: 1;
+    color:#000;
+}
+
+article .readMore p:first-of-type:first-line {
+    font-size: 1.5rem;
+        color:#000;
+}
+
+
+#history p:first-word {
+    font-size: 2rem;
+        color:#51822F;
+	}
+
+
+.readMore{
+	height:auto;
+}
+
+
+
+h2{
+	font-family: "Prenton";
+	font-size: 3rem;
+	font-weight: 200;
+color: #51822F;
+margin-top:0em;
+}
+
+
+.video-background {
+				position: absolute;
+				top: 0;
+				left: 0;
+				overflow: hidden;
+				width: 100%;
+				height: 100%;
+				z-index: 0;
+			}
+			.video-background video {
+				min-height: 100%; 
+				min-width:100%; 
+			}
+
+
+
+header nav{
+
+height: 40px;
+
+}
+
+
+
+section h1{
+padding-top:3em;
+padding-left:3em;
+
+}
+
+#title{
+	float:left;
+	margin-left: 1em;
+	margin-top:1.45em;
+	width:50%;
+
+}
+
+
+
+
+#menu{
+position: absolute;
+background-color: 5a7195;
+top:100px;
+right:50px;
+}
+
+
+
+.nav-container{ 
+border-top:1px solid rgba(255, 255, 255, .7);
+border-bottom:1px solid rgba(0, 0, 0, .5);
+background: #5a7195;
+padding-bottom: .75em;
+padding-top: .75em;
+}
+
+
+.expandFullHeight{
+
+height:100%;
+
+}
+
+header nav {
+	margin-left:1em;
+}
+
+
+    .f-nav{ 
+    	z-index: 9999; 
+    	position: fixed; 
+    	left: 0px; 
+    	top: 0px; 
+    	width:100%;
+
+    	}  /*this make our menu fixed top */
+    
+
+#fnav_logo{
+	visibility: hidden;
+	float:right;
+	border:0;
+}
+
+.fnav-show{
+visibility: visible;
+
+}
+
+
+nav {  
+    height: 40px;  
+    width: 100%;  
+    position: relative;  
+}  
+nav ul {  
+    padding: 0;  
+    margin: 0 auto;  
+}  
+
+
+    nav ul, .f-nav ul{
+		list-style: none;
+		margin:0;
+		padding:0;
+	}
+
+
+	.f-nav ul{
+		margin-left:2.5em;
+	}
+
+
+    nav ul li, .f-nav ul li {
+		list-style: none;
+		padding: 10px !important;
+		display: inline;
+		margin: 0 0 0 0 !important;
+	}
+
+	nav li a, .f-nav li a {
+		color: #fff;
+		text-decoration: none;
+		font-family: Prenton;
+		font-size: 1.15rem;
+	}
+
+
+
+    footer{
+		background-color: #0D3268;
+		height:300px;
+
+
+    }
+
+    #howtogive{
+
+    	background-color: #fff;
+    }
+
+
+
+img{
+	border:1px solid #000;
+
+
+}
+
+
+a{
+	color:#5a7195;
+
+}
+
+.floatLeft{
+	float:left;
+	margin-right: 2em;
+	margin-bottom: 5em;
+
+}
+
+h3{
+
+color: #4b676c;
+font-family: "chaparral-pro", serif;
+font-size: 1.5em;
+
+}
+button{
+	float:right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#5a7195 0%,
+		#5a7195);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#5a7195),
+		to(#5a7195));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #003366;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.7),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+
+
+
+
+
+
+#video_background { 
+	position: absolute; 
+	bottom: 0px; 
+	right: 0px; 
+	min-width: 100%; 
+	min-height: 100%; 
+	width: auto; 
+	height: auto; 
+	z-index: -1000; 
+	overflow: hidden; 
+}
+
+
+
+
+
+
+
+
+
+
+
+.slideshow { height: 232px; width: 600px; margin: auto }
+.slideshow img { padding: 15px; border: 1px solid #ccc; background-color: #eee; }
+
+
+#main .fourcol p {
+	margin-bottom: 1.5em; 
+	margin-right:0em; 
+	}
+	
+
+
+	
+	
+#featuredProducts {
+	width: 689px;
+	margin: 0 auto;
+	height: 400px;
+	position: relative;
+
+}
+
+
+#featuredProducts .wrapper {
+	width: 649px;
+	margin: 0 20px;
+	overflow: hidden;
+	height: 400px;
+	position: relative;
+}
+
+
+#featuredProducts ul {
+	width: 649px;
+	float: left;
+	height: 200px;
+	margin: 0;
+	padding: 0 0 0 0px;
+	list-style: none;
+}
+#featuredProducts ul ul {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+#featuredProducts ul li,
+#featuredProducts ul li.productItem {
+	float: left;
+	width: 120px;
+	padding: 16px 17px;
+	height: 200px;
+	position: relative;
+}
+#featuredProducts #archivePrev{
+	width: 30px;
+	height: 30px;
+	background: url(images/prevbtn.gif) no-repeat top center;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	cursor: pointer;
+	display: block;
+	text-indent: -9999px;
+}
+
+
+#featuredProducts a#archiveNext {
+	width: 22px;
+	height: 22px;
+	background: url(images/nextbtn.gif) no-repeat top right;
+	position: absolute;
+	top: 50px;
+	right: 0px;
+	cursor: pointer;
+	display: block;
+	text-indent: -9999px;
+}
+
+
+
+
+
+.vid {
+width:80%;
+}  
+
+
+
+video{
+position:absolute;
+top:0; left:0;
+
+}
+
+
+
+
+
+/*I am not using any of the stuff below, this is just an archive */
+
+.expandContent { 
+/*animation: inout 3s; 
+animation-iteration-count: 1;
+-webkit-animation: inout 3s;
+-webkit-animation-iteration-count: 1;
+-webkit-animation-fill-mode: forwards; 
+margin: auto;*/
+} 
+
+.expandContent { 
+top:300px;
+transition-property: top;
+transition-duration: 2s;
+-webkit-transition-property: top; /* Safari */
+-webkit-transition-duration: 2s; /* Safari */
+}
+
+/*
+animation: inoutparagraph 3s; 
+animation-iteration-count: 1;
+-webkit-animation: inoutparagraph 3s;
+-webkit-animation-iteration-count: 1;
+-webkit-animation-fill-mode: forwards; 
+margin: auto;*/
+
+ 
+@keyframes inout { 
+0%   { transform: translate(0,0) scaleY(1);
+25%   { transform: translate(0,0) scaleY(1);  }
+50%   { transform:  translateY(-100px) scaleY(1.5);  }
+100%  { transform: translateY(-200px) scaleY(1.5);  } 
+}
+
+
+
+@-webkit-keyframes inout { /* Safari & Chrome */
+0%   { -webkit-transform: translate(0,0) scaleY(1);  } 
+25%  { -webkit-transform: translate(0,0) scaleY(1); }
+50%  { -webkit-transform: translateY(-100px) scaleY(1.5);  }
+100% { -webkit-transform: translateY(-200px) scaleY(1.5);  } 
+} 
+
+article {
+   font: bold 30px/1.5 "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+   -webkit-transition: color 0.5s ease;
+   -moz-transition: color 0.5s ease;
+   -o-transition: color 0.5s ease;
+   -ms-transition: color 0.5s ease;
+   transition: color 0.5s ease;
+ 
+}
+
+
+
+ 
+h1:target {
+   font-size: 50px;
+   text-decoration: underline;
+   color: #37aee4;
+}
+
+.nav a#pull {
+	display: none;
+}
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+	#history #slideshow-1 { min-height:none; height:auto; width: auto; margin-right: 0em; margin-bottom: 0em; float:none; clear:both;}
+
+
+#title{
+margin-top: .75em;
+
+}
+
+.nav #uvalogo_horiz{
+
+visibility: hidden;
+}
+
+
+#headerBackground {
+text-align: center;
+}
+
+
+#libraryLogo {
+background: url(../images/horizontal_logo.png) no-repeat;
+height: 30px;
+width: 300px;
+float: none;
+margin: auto;
+margin-top: 0em;
+}
+
+
+#headerBackground {
+height: 7em;
+padding-top: 1em;
+}
+
+#uva_link{
+	visibility: hidden;
+}
+
+
+	nav { 
+  		height: auto;
+  	}
+  	nav ul {
+  		width: 100%;
+  		display: block;
+  		height: auto;
+  	}
+  	nav li {
+  		width: 50%;
+  		float: left;
+  		position: relative;
+  	}
+
+  	nav a {
+	  	text-align: left;
+	  	width: 100%;
+	  	text-indent: 25px;
+  	}
+  	.nav-container{
+		height:7em;
+		width:100%;
+		margin:auto;
+	}
+
+
+	#title {
+		float:none;
+		margin:auto;
+		margin:0;
+		width:100%;
+	}
+
+
+	#cycle-1{
+		height:auto;
+	}
+
+
+
+}
+
+
+/*Styles for screen 600px and lower*/
+@media screen and (max-width: 768px) {
+
+
+#history #slideshow-1 {
+max-width: 400px;
+min-height: 400px; 
+width: auto;
+margin-right: 0em;
+margin-bottom: 0em;
+float: none;
+position: relative;
+}
+#history article{
+	height:auto;
+}
+
+
+	nav ul li, .f-nav ul li {
+padding: 7px !important;
+
+}
+
+
+
+
+
+
+	nav {   
+        height: auto;  
+    }  
+    nav ul {  
+        width: 100%;  
+        display: block;  
+        height: auto;  
+    }  
+    nav li {  
+        width: 40%;  
+        float: left;  
+        position: relative;  
+    }  
+
+    nav a {  
+        text-align: left;  
+        width: 100%;  
+        text-indent: 25px;  
+    }  
+	nav a#pull {
+		display: block;
+		background-color: #283744;
+		width: 100%;
+		position: relative;
+	}
+	nav a#pull:after {
+		content:"";
+		background: url('../images/nav-icon.png') no-repeat;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: 10px;
+	}
+
+#headerBackground {
+	height:5em;
+
+
+
+
+}
+
+/*Smartphone*/
+@media only screen and (max-width : 400px) {
+
+
+	#cycle-2{
+display:none;
+
+	}
+
+	#history #slideshow-1 img {
+max-height: 300px;
+max-width: 200px;
+clear:both;
+}
+
+
+
+
+
+	nav ul li, .f-nav ul li {
+padding: 5px !important;
+line-height: 1;
+}
+	
+
+article{
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+
+#libraryLogo {
+float: none;
+margin-right: 0em;
+margin-top: 0em;
+border: 0px;
+}
+
+.nav #uvalogo_horiz{
+
+visibility: hidden;
+}
+
+
+
+h1 {
+	font-size: 1.50rem;
+  }
+
+}
