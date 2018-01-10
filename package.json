@@ -4,7 +4,7 @@
   "description": "Static web resources",
   "main": "index.js",
   "scripts": {
-    "sync-files": "rsync -avh js/ static01.lib.virginia.edu:/lib_content47/static/js; rsync -avh campaign/ static01.lib.virginia.edu:/lib_content47/campaign"
+    "sync-files": "rsync -avh js/ static01.lib.virginia.edu:/lib_content47/static/js; rsync -avh --delete campaign/ static01.lib.virginia.edu:/lib_content47/campaign"
   },
   "repository": {
     "type": "git",
