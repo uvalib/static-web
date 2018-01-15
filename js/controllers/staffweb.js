@@ -17,5 +17,5 @@ var SkipToConfig =
 	}
 };
 var script = document.createElement('script');
-script.src = '//static.lib.virginia.edu/js/skipTo/skipTo.js';
+script.src = '//static.lib.virginia.edu/js/skipTo/skiptom.min.js';
 document.head.appendChild(script);
