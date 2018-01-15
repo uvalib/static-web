@@ -3,5 +3,5 @@ var access_analytics={base_url:"https://analytics.ssbbartgroup.com/api/",instanc
 
 // Implement accessible skip to navigation for page content
 var script = document.createElement('script');
-script.src = '../skipTo.js';
+script.src = '//static.lib.virginia.edu/js/skipTo.js';
 document.head.appendChild(script);
