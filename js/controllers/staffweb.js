@@ -2,7 +2,7 @@
 var access_analytics={base_url:"https://analytics.ssbbartgroup.com/api/",instance_id:"AA-58bdcc11cee35"};(function(a,b,c){var d=a.createElement(b);a=a.getElementsByTagName(b)[0];d.src=c.base_url+"access.js?o="+c.instance_id+"&v=2";a.parentNode.insertBefore(d,a)})(document,"script",access_analytics);
 
 // Implement accessible skip to navigation for page content
-var SkipToConfig =
+/*var SkipToConfig =
 {
 	"settings": {
 		"skipTo": {
@@ -18,4 +18,4 @@ var SkipToConfig =
 };
 var script = document.createElement('script');
 script.src = '//static.lib.virginia.edu/js/skipTo/skipto.min.js';
-document.head.appendChild(script);
+document.head.appendChild(script);*/
