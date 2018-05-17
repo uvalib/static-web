@@ -41,6 +41,6 @@ if (oldBrowser) {
   head.appendChild( addImport('https://wwwstatic.lib.virginia.edu/bower_components-unbundled-compiled/uvalib-header/uvalib-simple-header.html') );
   head.appendChild( addImport('https://wwwstatic.lib.virginia.edu/bower_components-unbundled-compiled/uvalib-footer/uvalib-footer.html') );
 } else {
-  head.appendChild( addImport('https://wwwstatic.lib.virginia.edu/bower_components/uvalib-header/uvalib-simple-header.html') );
+  head.appendChild( addImport('https://wwwstatic.lib.virginia.edu/bower_components/uvalib-header/uvalib-header.html') );
   head.appendChild( addImport('https://wwwstatic.lib.virginia.edu/bower_components/uvalib-footer/uvalib-footer.html') );
 }
