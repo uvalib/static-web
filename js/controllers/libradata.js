@@ -18,7 +18,7 @@ var access_analytics={base_url:"https://analytics.ssbbartgroup.com/api/",instanc
   // global for (1) existence means `WebComponentsReady` will fire,
   // (2) WebComponents.ready == true means event has fired.
   window.WebComponents = window.WebComponents || {};
-  var name = 'webcomponents-loader.js';
+  var name = 'libradata.js';
   // Feature detect which polyfill needs to be imported.
   var polyfills = [];
   if (!('import' in document.createElement('link'))) {
