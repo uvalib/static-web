@@ -89,6 +89,6 @@ var addImport = function(href){
   return link;
 }
 
-head.appendChild( addImport('https://wwwstatic.lib.virginia.edu/bower_components/uva-helper-libs/polyfills.html') );
-head.appendChild( addImport('https://wwwstatic.lib.virginia.edu/bower_components/uvalib-header/uvalib-header.html') );
-head.appendChild( addImport('https://wwwstatic.lib.virginia.edu/bower_components/uvalib-footer/uvalib-footer.html') );
+head.appendChild( addImport('https://www.library.virginia.edu/bower_components/uva-helper-libs/polyfills.html') );
+head.appendChild( addImport('https://www.library.virginia.edu/bower_components/uvalib-header/uvalib-header.html') );
+head.appendChild( addImport('https://www.library.virginia.edu/bower_components/uvalib-footer/uvalib-footer.html') );
