@@ -45,7 +45,7 @@ var access_analytics={base_url:"https://analytics.ssbbartgroup.com/api/",instanc
     // Load it from the right place.
     var replacement = 'webcomponents-' + polyfills.join('-') + '.js';
     var url = script.src.replace(name, replacement);
-    newScript.src = url;
+    newScript.src = "https://www.library.virginia.edu/bower_components/webcomponentsjs/"+replacement;
     // NOTE: this is required to ensure the polyfills are loaded before
     // *native* html imports load on older Chrome versions. This *is* CSP
     // compliant since CSP rules must have allowed this script to run.
