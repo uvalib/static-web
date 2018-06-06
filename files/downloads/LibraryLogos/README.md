@@ -9,3 +9,9 @@
     <li>color (orange and blue)</li>
   </ul>
   </p>
+  
+  <h4>Inline</h4>
+  <img src="UVALIB_inline_color_web.png" alt="Inline UVA Library Logo"/>
+
+  <h4>Stacked</h4>
+  <img src="UVALIB_stacked_blue_web.png" alt="Inline UVA Library Logo"/>
