@@ -1,4 +1,4 @@
-Access Analytics, Level Access’s accessibility analytics tool
+//Access Analytics, Level Access’s accessibility analytics tool
 var script = document.createElement('script');
 script.type = 'text/javascript';
 script.src = 'https://cdn.levelaccess.net/accessjs/YW1wX3V2YTExMDA/access.js';
